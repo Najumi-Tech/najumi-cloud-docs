@@ -1,14 +1,25 @@
 # Contributing to Najumi Cloud
 
-Contribution guidelines for the Najumi Cloud ecosystem developed by Najumi Tech.
+Thank you for your interest in contributing to the Najumi Cloud ecosystem.
+
+Najumi Cloud is a cloud infrastructure platform developed and maintained by Najumi Tech.
+
+The ecosystem is focused on building scalable developer infrastructure, deployment systems, runtime orchestration, networking services, and future cloud platform technologies.
 
 ---
 
-# Overview
+# Contribution Philosophy
 
-Najumi Cloud is being engineered as a scalable infrastructure ecosystem focused on deployment systems, runtime infrastructure, networking services, and modern developer platforms.
+The platform is developed with a strong focus on:
 
-Contributions are intended to help improve documentation quality, platform clarity, infrastructure understanding, and ecosystem development.
+- infrastructure reliability
+- engineering clarity
+- scalable architecture
+- developer experience
+- operational simplicity
+- long-term maintainability
+
+Contributions should align with these engineering principles.
 
 ---
 
@@ -17,102 +28,114 @@ Contributions are intended to help improve documentation quality, platform clari
 Contributions may include:
 
 - documentation improvements
-- infrastructure documentation
-- architecture clarification
-- deployment workflows
-- API documentation
-- runtime documentation
-- developer onboarding
-- technical corrections
-- ecosystem structure improvements
+- infrastructure tooling
+- deployment systems
+- runtime optimization
+- platform APIs
+- security improvements
+- developer tooling
+- platform integrations
+- bug fixes
+- engineering workflows
+
+---
+
+# Documentation Standards
+
+All documentation contributions should:
+
+- remain technically accurate
+- use clear engineering language
+- maintain infrastructure-oriented terminology
+- follow existing documentation structure
+- avoid unnecessary marketing language
+
+Documentation should prioritize:
+- clarity
+- scalability
+- consistency
+- developer usability
 
 ---
 
 # Engineering Standards
 
-All contributions should prioritize:
+Infrastructure-related contributions should aim to maintain:
 
-- technical clarity
-- infrastructure accuracy
-- scalability awareness
-- professional documentation standards
-- developer readability
-- ecosystem consistency
+- modular architecture
+- predictable behavior
+- deployment stability
+- operational visibility
+- runtime isolation
+- infrastructure scalability
 
-Documentation should maintain infrastructure-oriented language and production-grade engineering tone.
-
----
-
-# Documentation Principles
-
-Najumi Cloud documentation aims to remain:
-
-- modular
-- scalable
-- technically accurate
-- developer-focused
-- infrastructure-oriented
-- ecosystem-consistent
-
-Contributors should avoid:
+Contributors should avoid introducing:
 - unnecessary complexity
-- marketing-heavy wording
-- misleading infrastructure claims
-- inconsistent terminology
+- tightly coupled systems
+- undocumented infrastructure behavior
 
 ---
 
-# Pull Request Workflow
+# Pull Request Guidelines
 
-Recommended contribution workflow:
+Before opening a pull request:
 
-1. Fork repository
-2. Create feature branch
-3. Make changes
-4. Validate documentation structure
-5. Submit pull request
+1. Ensure changes are tested
+2. Keep commits clean and descriptive
+3. Maintain documentation consistency
+4. Avoid unrelated modifications
+5. Explain architectural decisions clearly
 
----
+Example commit style:
 
-# Commit Standards
+```text
+docs(runtime): improve deployment runtime documentation
 
-Contributions should follow structured commit conventions.
+feat(deploy): add deployment retry handling
 
-Examples:
-
-```bash
-docs(platform): improve runtime architecture documentation
-
-docs(products): update Najumi Go deployment systems
-
-docs(security): expand infrastructure security policy
+fix(proxy): resolve reverse proxy routing issue
 ```
 
 ---
 
-# Infrastructure Terminology
+# Security Contributions
 
-Documentation across Najumi Cloud should maintain consistent infrastructure terminology.
+Security-related contributions should:
 
-Preferred terminology includes:
+- avoid exposing sensitive information
+- avoid publishing credentials
+- follow responsible disclosure practices
+- prioritize infrastructure safety
 
-- deployment infrastructure
-- runtime systems
-- orchestration
-- cloud networking
-- workload execution
-- infrastructure layer
-- deployment pipeline
-- scalable infrastructure
-- distributed systems
+Security vulnerabilities should be reported privately when appropriate.
 
 ---
 
-# Ecosystem Direction
+# Platform Direction
 
-Najumi Cloud is being developed as a long-term infrastructure ecosystem within Najumi Tech.
+Najumi Cloud is evolving toward a broader integrated infrastructure ecosystem including:
 
-Contribution standards and documentation systems will continue evolving alongside platform growth and infrastructure expansion.
+- deployment infrastructure
+- VPS systems
+- object storage
+- managed databases
+- networking infrastructure
+- CDN systems
+- email infrastructure
+- developer tooling
+
+Contributions should consider long-term ecosystem scalability.
+
+---
+
+# Community Expectations
+
+Contributors are expected to maintain:
+
+- professional communication
+- respectful collaboration
+- engineering-focused discussions
+- constructive feedback
 
 ---
 
